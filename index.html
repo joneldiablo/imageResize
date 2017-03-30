@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="dist/imageResize.js"></script>
+<style type="text/css">
+.container {
+	overflow: hidden;
+	width: 90px;
+	height: 90px;
+	display: inline-block;
+}
+</style>
+</head>
+<body>
+	<div class="container">
+		<img alt="demo" src="demo/1000x3000.png">
+	</div>
+	<div class="container">
+		<img src="demo/3000x1000.png" alt="demo" />
+	</div>
+	<div class="container">
+		<img src="demo/3000x3000.png" alt="demo" />
+	</div>
+	<div class="container">
+		<img src="demo/100x300.png" alt="demo" />
+	</div>
+	<div class="container">
+		<img src="demo/300x100.png" alt="demo" />
+	</div>
+	<div class="container">
+		<img src="demo/300x300.png" alt="demo" />
+	</div>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$(".container img").resizeImage();
+	});
+	</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+{
+  "name": "imageResize",
+  "description": "plugin for emulate the background-size cover css property",
+  "main": "imageResize",
+  "keywords": [
+    "resize",
+    "cover",
+    "backgorund-size",
+    "emulate",
+    "jquery",
+    "plugin"
+  ],
+  "version": "1.1",
+  "authors": [
+    "jon_eldiablo@hotmail.com"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
