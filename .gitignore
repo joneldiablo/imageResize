@@ -46,6 +46,10 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-#node
+# node
 node_modules
 bower_components
+
+# eclipse
+.settings
+.project

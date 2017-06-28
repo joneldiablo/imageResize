@@ -1,7 +1,10 @@
 {
-  "name": "imageResize",
+  "name": "image-resize",
   "description": "plugin for emulate the background-size cover css property",
-  "main": "imageResize",
+  "main": [
+    "./dist/imageResize.css",
+    "./dist/imageResize.js"
+  ],
   "keywords": [
     "resize",
     "cover",
@@ -22,5 +25,8 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "jquery": "2.2.4"
+  }
 }
